@@ -3,13 +3,8 @@ layout: base-layout.njk
 --- 
 # About this blog 
   
-This blog was created using the Static Site Generator [Eleventy](https://www.11ty.io/) (aka 11ty).
-New posts can quickly and easily be added to this blog just by adding new Markdown files.
+  hi my name is andrew. I like technology & tacos.
+  
+  ![](https://i.postimg.cc/4NT7dk7k/hello.png)
 
-The following article details how this blog was created.
-
-## Creating A Blog With Eleventy
-[https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/](https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/)
-
-
- 
+I'm using [a simple eleventy layout](https://github.com/JonUK/eleventy-blog).

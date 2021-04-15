@@ -10,14 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonUK/eleventy-blog.git"
+    "url": "git+https://github.com/adnjoo/personal-blog.git"
   },
-  "author": "Jon Keeping",
+  "author": "Andrew Njoo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JonUK/eleventy-blog/issues"
-  },
-  "homepage": "https://github.com/JonUK/eleventy-blog#readme",
+  "homepage": "https://github.com/adnjoo/eleventy-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "jest": "^26.6.3",
