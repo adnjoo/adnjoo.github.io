@@ -1,4 +1,4 @@
-# eleventy-blog
+# JAMstack eleventy-blog
 
 the blog is available on :  
 [adnjoo.com](https://adnjoo.com/)
