@@ -6,9 +6,8 @@ tags: ['post']
 
 ---
 <!-- Excerpt Start -->
-random gif :: testing [giphy](https://giphy.com) api
+testing [giphy](https://giphy.com) api
 <!-- Excerpt End --> 
-
 
 
 random gif

@@ -11,7 +11,7 @@ layout: base-layout.njk
 
 # About this blog 
 
-hi my name is andrew. I like technology & tacos.
+hi my name is andrew. I like technology & tacos 🌮.
   
 ![](https://avatars.githubusercontent.com/u/22807629?v=4)
 
