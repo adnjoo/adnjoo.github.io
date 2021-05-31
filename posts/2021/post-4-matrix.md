@@ -10,8 +10,15 @@ tags: ['post']
 fun little matrix thing
 </div>
 <!-- Excerpt End --> 
-
-<body style="background-color:black; color: green; font-size: 40px">
+<style>
+* {
+    border: 1px solid transparent
+}
+p {
+    font-size: 40px
+}
+</style>
+<body style="background-color:black; color: green">
 <div style="transform: translate(50px,0px)">
 <div id="typed-strings">
     <p>Wake up, Neo...</p>
