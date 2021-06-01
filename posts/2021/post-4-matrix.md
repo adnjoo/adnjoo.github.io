@@ -6,10 +6,11 @@ tags: ['post']
 
 ---
 <!-- Excerpt Start -->
-<div id='hideme'>
+<p id='hideme'>
 fun little matrix thing
-</div>
+</p>
 <!-- Excerpt End --> 
+
 <style>
 * {
     border: 1px solid transparent
