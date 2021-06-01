@@ -12,7 +12,7 @@ fun little matrix thing
 <!-- Excerpt End --> 
 
 <style>
-.typed-strings {
+* {
     border: 1px solid transparent
 }
 p {
