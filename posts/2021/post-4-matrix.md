@@ -12,11 +12,12 @@ fun little matrix thing
 <!-- Excerpt End -->
 
 <style>
-* {
-    border: 1px solid transparent
+/* div, article, main, p, footer, body */
+span{
+    border: 1px solid transparent;
 }
 p {
-    font-size: 40px
+    font-size: 30px
 }
 </style>
 <body style="background-color:black; color: green">
@@ -30,6 +31,7 @@ p {
 </div>
 
 <span id="typed"></span>
+
 </div>
 
 </body>
