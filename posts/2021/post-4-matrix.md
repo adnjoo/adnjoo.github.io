@@ -12,7 +12,6 @@ fun little matrix thing
 <!-- Excerpt End -->
 
 <style>
-/* div, article, main, p, footer, body */
 span{
     border: 1px solid transparent;
 }
