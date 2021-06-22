@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>drew's blog</title>
+
+  <link rel="stylesheet" href="/css/site.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
+</head>
+<body>
+<header>
+  <a href="/" class="link--home">drew's blog</a>
+  <a href="/About" class="link--about">About</a>
+</header>
+<main>
+  <article>
+  <h1>random quote</h1>
+  <time datetime="2021-03-27T00:00:00.000Z">March 27, 2021</time>
+  <!-- Excerpt Start -->
+<p>testing <a href="https://quotable.io">quotable.io</a> api</p>
+<!-- Excerpt End --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function get_quote() {
+    $.get("https://api.quotable.io/random", function(data){
+      document.getElementById('para').innerHTML = data.content;
+      document.getElementById('author').innerHTML = data.author;
+    });
+}
+
+$(document).ready(function(){
+  get_quote();
+  $("button").click(function(){
+    get_quote();
+  });
+});
+
+</script>
+</head>
+<body>
+<div id="para">
+</div>
+<div id="author">
+</div>
+<p><button>Random quote</button></p>
+
+</article>
+</main>
+<footer>&copy; drew's blog</footer>
+</body>
+</html>
