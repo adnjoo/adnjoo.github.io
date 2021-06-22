@@ -3,7 +3,7 @@
 [using eleventy](https://www.11ty.dev/)
 
 the blog is available on :  
-[adnjoo.com](https://adnjoo.github.io/personal-blog/)
+[link](https://adnjoo.github.io/personal-blog/)
 
 ## How do I run the site?
 ```
