@@ -12,3 +12,6 @@ npm run serve
 ```
 
 Then access the site with the URL [http://localhost:8080/](http://localhost:8080/) (your port may vary).
+
+
+parent code from [here](https://github.com/JonUK/eleventy-blog)
