@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>drew's blog</title>
+
+  <link rel="stylesheet" href="/css/site.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
+</head>
+<body>
+<header>
+  <a href="/" class="link--home">drew's blog</a>
+  <a href="/About" class="link--about">About</a>
+</header>
+<main>
+  <article>
+  <h1>random gif</h1>
+  <time datetime="2021-04-15T00:00:00.000Z">April 15, 2021</time>
+  <!-- Excerpt Start -->
+<p>testing <a href="https://giphy.com">giphy</a> api</p>
+<!-- Excerpt End --> 
+<p>random gif
+<img id='img' src=''></p>
+<script>
+var x='https://media2.giphy.com/media/'
+var y
+var z
+fetch('https://api.giphy.com/v1/gifs/trending?api_key=UJHVXZkSLWFZeooBpe9DpTvP0Aft7czt')
+.then(response => response.json())
+  .then(data => {
+    y = data
+    z = Math.floor(Math.random() * 50);
+    x += y.data[z].id+'/giphy.gif';
+    console.log(data)
+    document.getElementById("img").src = x
+  });
+</script>
+
+</article>
+</main>
+<footer>&copy; drew's blog</footer>
+</body>
+</html>
