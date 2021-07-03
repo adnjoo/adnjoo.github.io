@@ -1,7 +1,7 @@
 # JAMstack blog
 
 the blog is available on :  
-[link](https://adnjoo.github.io/personal-blog/)
+[link](https://adnjoo.github.io/)
 
 ## How do I run the site?
 ```
