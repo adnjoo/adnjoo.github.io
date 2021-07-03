@@ -1,7 +1,5 @@
 # JAMstack blog
 
-[using eleventy](https://www.11ty.dev/)
-
 the blog is available on :  
 [link](https://adnjoo.github.io/personal-blog/)
 
