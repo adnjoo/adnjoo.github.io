@@ -6,17 +6,12 @@ the blog is available on :
 ## How do I run the site?
 ```
 npm install
-npm run serve
-```
-
-Then access the site with the URL [http://localhost:8080/](http://localhost:8080/) (your port may vary).
-
-
-parent code from [here](https://github.com/JonUK/eleventy-blog)
-
-master branch - for JAMSTACK template generator using 
-```
 npx @11ty/eleventy --serve
 ```
+The above command will build into folder \_site. 
+We then push this repo separately into the gh-pages branch where we tell GH to build our webpage from.
 
-main branch - for static deployment of _site folder to Github pages
+main branch - JAMSTACK template generator 
+gh-pages branch - github deploys from here 
+
+template code from [here](https://github.com/JonUK/eleventy-blog)
