@@ -1,6 +1,6 @@
 # JAMstack blog
 
-> the blog is available on : [link](https://adnjoo.github.io/)
+> the blog is available [here](https://adnjoo.github.io/)
 
 ## How do I run the site?
 ```
