@@ -8,8 +8,9 @@ npm install
 npm i moment
 npx @11ty/eleventy --serve
 ```
-The above command will build into folder \_site.
-We then push this repo separately into the gh-pages branch where we tell GH to build our webpage from.
+The above command will build into the '_site' folder.
+
+We then push this repo into the gh-pages branch where GH builds the webpage from.
 
 * main branch - JAMSTACK template generator
 
