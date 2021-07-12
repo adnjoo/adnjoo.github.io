@@ -16,4 +16,4 @@ We then push this repo into the gh-pages branch where GH builds the webpage from
 
 * gh-pages branch - github deploys from here
 
-template code from [here] (https://github.com/JonUK/eleventy-blog)
+template code from [here](https://github.com/JonUK/eleventy-blog)
